@@ -7,7 +7,8 @@
 </head>
 <body>
     <?php 
-    echo("<h1>Header 1</h1>");
+    $name = "John";
+    echo("<h1>Header $name</h1>");
     ?>
 </body>
 </html>
