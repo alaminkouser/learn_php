@@ -7,8 +7,14 @@
 </head>
 <body>
     <?php 
-    $name = "John";
-    echo("<h1>Header $name</h1>");
+    $phrase = "John";
+    $age = 20;
+    $test = 1.5;
+    $tf = false;
+    echo("<h1>Header $phrase, $age, $test, $tf</h1>");
+
+    echo("$phrase, $age, $test, $tf");
+    echo("$phrase, $age, $test, $tf");
     ?>
 </body>
 </html>
