@@ -6,15 +6,10 @@
     <title><?php echo "Title" ?></title>
 </head>
 <body>
-    <?php 
-    $phrase = "John";
-    $age = 20;
-    $test = 1.5;
-    $tf = false;
-    echo("<h1>Header $phrase, $age, $test, $tf</h1>");
+    <?php
+      $phrase = "To be or not to be";
 
-    echo("$phrase, $age, $test, $tf");
-    echo("$phrase, $age, $test, $tf");
+      echo substr($phrase, 3, 5);
     ?>
 </body>
 </html>
